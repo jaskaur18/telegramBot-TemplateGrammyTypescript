@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "useUnknownInCatchVariables": true,
+    "strict": true,
+    "incremental": true,
+    "module": "commonjs",
+    "target": "ES2021",
+    "moduleResolution": "NodeNext",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": "src",
+    "paths": {
+      "~/*": [
+        "*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
